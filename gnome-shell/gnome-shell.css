@@ -2130,7 +2130,8 @@ StEntry StLabel.hint-text {
 /* Top Bar */
 #panel .panel-button#panelActivities {
   -natural-hpadding: 12px;
-  /*color: black;*/
+  color: black;
+  background-color: black;
 }
 
 
@@ -2157,7 +2158,7 @@ StEntry StLabel.hint-text {
   color: black;
   transition-duration: 250ms;
   height: 28px !important;
-  /*box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05);*/
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05);
   font-size: 13px;
 }
 
