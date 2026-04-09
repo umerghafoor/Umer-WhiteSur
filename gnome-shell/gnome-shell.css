@@ -2082,7 +2082,7 @@ StEntry StLabel.hint-text {
   border-radius: 24px;
   border: solid rgba(0, 0, 0, 0.75);
   border-width: 0;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: none;
   padding: 8px;
 }
 
@@ -2179,7 +2179,7 @@ StEntry StLabel.hint-text {
   color: black;
   transition-duration: 250ms;
   height: 28px !important;
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: none;
   font-size: 13px;
 }
 
@@ -2190,7 +2190,7 @@ StEntry StLabel.hint-text {
 
 #panel.opaque {
   background-color: rgba(0, 0, 0, 1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  box-shadow: none;
 }
 
 
@@ -2241,7 +2241,7 @@ StEntry StLabel.hint-text {
 #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
   color: white;
   background-color: transparent;
-  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.28);
+  box-shadow: inset none;
 }
 
 #panel .panel-button:active.clock-display, #panel .panel-button:overview.clock-display, #panel .panel-button:focus.clock-display, #panel .panel-button:checked.clock-display {
@@ -2250,7 +2250,7 @@ StEntry StLabel.hint-text {
 
 #panel .panel-button:active.clock-display .clock, #panel .panel-button:overview.clock-display .clock, #panel .panel-button:focus.clock-display .clock, #panel .panel-button:checked.clock-display .clock {
   background-color: transparent;
-  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.28);
+  box-shadow: inset none;
 }
 
 .unlock-screen #panel .panel-button, .unlock-screen #panel .panel-button:focus, .unlock-screen #panel .panel-button:hover, .unlock-screen #panel .panel-button:active, .login-screen #panel .panel-button, .login-screen #panel .panel-button:focus, .login-screen #panel .panel-button:hover, .login-screen #panel .panel-button:active, .lock-screen #panel .panel-button, .lock-screen #panel .panel-button:focus, .lock-screen #panel .panel-button:hover, .lock-screen #panel .panel-button:active {
@@ -2387,23 +2387,23 @@ StEntry StLabel.hint-text {
 #panel:overview .panel-button:hover, #panel.unlock-screen .panel-button:hover, #panel.login-screen .panel-button:hover, #panel.lock-screen .panel-button:hover {
   color: white;
   background-color: transparent;
-  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
+  box-shadow: none;
 }
 
 #panel:overview .panel-button:hover.clock-display .clock, #panel.unlock-screen .panel-button:hover.clock-display .clock, #panel.login-screen .panel-button:hover.clock-display .clock, #panel.lock-screen .panel-button:hover.clock-display .clock {
   background-color: transparent;
-  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
+  box-shadow: none;
 }
 
 #panel:overview .panel-button:active, #panel:overview .panel-button:active:hover, #panel:overview .panel-button:overview, #panel:overview .panel-button:overview:hover, #panel:overview .panel-button:focus, #panel:overview .panel-button:focus:hover, #panel:overview .panel-button:checked, #panel:overview .panel-button:checked:hover, #panel.unlock-screen .panel-button:active, #panel.unlock-screen .panel-button:active:hover, #panel.unlock-screen .panel-button:overview, #panel.unlock-screen .panel-button:overview:hover, #panel.unlock-screen .panel-button:focus, #panel.unlock-screen .panel-button:focus:hover, #panel.unlock-screen .panel-button:checked, #panel.unlock-screen .panel-button:checked:hover, #panel.login-screen .panel-button:active, #panel.login-screen .panel-button:active:hover, #panel.login-screen .panel-button:overview, #panel.login-screen .panel-button:overview:hover, #panel.login-screen .panel-button:focus, #panel.login-screen .panel-button:focus:hover, #panel.login-screen .panel-button:checked, #panel.login-screen .panel-button:checked:hover, #panel.lock-screen .panel-button:active, #panel.lock-screen .panel-button:active:hover, #panel.lock-screen .panel-button:overview, #panel.lock-screen .panel-button:overview:hover, #panel.lock-screen .panel-button:focus, #panel.lock-screen .panel-button:focus:hover, #panel.lock-screen .panel-button:checked, #panel.lock-screen .panel-button:checked:hover {
   color: white;
   background-color: transparent;
-  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.16);
+  box-shadow: none;
 }
 
 #panel:overview .panel-button:active.clock-display .clock, #panel:overview .panel-button:overview.clock-display .clock, #panel:overview .panel-button:focus.clock-display .clock, #panel:overview .panel-button:checked.clock-display .clock, #panel.unlock-screen .panel-button:active.clock-display .clock, #panel.unlock-screen .panel-button:overview.clock-display .clock, #panel.unlock-screen .panel-button:focus.clock-display .clock, #panel.unlock-screen .panel-button:checked.clock-display .clock, #panel.login-screen .panel-button:active.clock-display .clock, #panel.login-screen .panel-button:overview.clock-display .clock, #panel.login-screen .panel-button:focus.clock-display .clock, #panel.login-screen .panel-button:checked.clock-display .clock, #panel.lock-screen .panel-button:active.clock-display .clock, #panel.lock-screen .panel-button:overview.clock-display .clock, #panel.lock-screen .panel-button:focus.clock-display .clock, #panel.lock-screen .panel-button:checked.clock-display .clock {
   background-color: transparent;
-  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.16);
+  box-shadow: none;
 }
 
 #panel:overview .panel-button#panelActivities, #panel.unlock-screen .panel-button#panelActivities, #panel.login-screen .panel-button#panelActivities, #panel.lock-screen .panel-button#panelActivities {
@@ -2683,7 +2683,7 @@ StEntry StLabel.hint-text {
 
 .screen-shield-background {
   background: black;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: none;
 }
 
 #unlockDialogNotifications StButton#vhandle, #unlockDialogNotifications StButton#hhandle {
@@ -3228,7 +3228,7 @@ StWidget.focused .app-grid-running-dot {
   padding-left: 6.5px;
   padding-right: 6.5px;
   border: none;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: none;
 }
 
 #dash .dash-item-container .placeholder {
@@ -4814,7 +4814,7 @@ StWidget.focused .app-grid-running-dot {
 .workspace-background {
   border-radius: 30px;
   background-color: rgba(42, 42, 42, 0.96);
-  box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
 }
 
 /* Workspace pager */
@@ -5054,7 +5054,7 @@ StWidget.focused .app-grid-running-dot {
 #dashtodockContainer:overview #dash .dash-background {
   background-color: rgba(255, 255, 255, 0.12);
   border: none;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  box-shadow: none;
 }
 
 #dashtodockContainer:overview #dash .app-grid-running-dot {
